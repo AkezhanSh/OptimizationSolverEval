@@ -11,6 +11,7 @@ The goal is to evaluate solver performance on infeasible (`mod008inf`) and feasi
 - **LP/**: Problem Set gathered from https://github.com/ozy4dm/lp-data-netlib 
 - **MILP/**: Problem Set gathered from https://plato.asu.edu/ftp/milp/ 
 - **MIQP/**: Problem Set gathered from https://plato.asu.edu/ftp/miqp/ with benchmark provided https://plato.asu.edu/talks/wash.pdf  
+- **QPDATA2/**: Problem Set gathered from https://www.doc.ic.ac.uk/~im/#DATA with benchmark provided https://plato.asu.edu/talks/wash.pdf  
 - **results/**: Solver output logs.
 - **README.md**: This file.
 

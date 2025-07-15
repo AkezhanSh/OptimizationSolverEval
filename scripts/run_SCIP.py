@@ -7,12 +7,13 @@ import sys
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Define problem file location (adjust QPS filename here)
-qps_file_name = "25fv47.mps"
-problem_type = "LP"
+qps_file_name = "bienst1.mps"
+problem_type = "MILP"
 problem_file = os.path.join(base_dir, problem_type, qps_file_name)
 problem_name = os.path.splitext(os.path.basename(problem_file))[0]  # e.g., "QAFIRO"
-results_dir = os.path.join(base_dir, "results")
-log_file = os.path.join(results_dir, f"{problem_name}_{problem_type}_SCIP.log")
+results_dir = os.path.join(os.getcwd(), "results", problem_type)
+
+log_file = os.path.join(results_dir, f"{problem_name}_SCIP.log")
 
 # Ensure problem file exists
 if not os.path.exists(problem_file):

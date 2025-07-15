@@ -1,24 +1,30 @@
-from ortools.math_opt.python import model_builder, solve
+import sys
+import pulp
+from pulp import LpProblem, LpStatus
 
-def solve_qp():
-    model = model_builder.Model()
+def solve_mps_with_ortools(mps_file):
+    print(f"Loading MPS file: {mps_file}")
 
-    x = model.add_continuous_variable(name="x")
-    y = model.add_continuous_variable(name="y")
+    # Load model from MPS
+    prob = LpProblem.fromMPS(mps_file, sense=pulp.LpMinimize)
 
-    # Objective: x^2 + y^2 + 3x + 4y
-    model.minimize(x * x + y * y + 3 * x + 4 * y)
+    # Set OR-Tools as solver backend
+    solver = pulp.getSolver('PULP_CBC_CMD', msg=True)  # ORTools not exposed directly in PuLP yet
 
-    # Constraints
-    model.add_linear_constraint(x + y <= 5)
-    model.add_linear_constraint(x >= 0)
-    model.add_linear_constraint(y >= 0)
+    # Solve the problem
+    prob.solve(solver)
 
-    result = solve.solve(model, solver_type=solve.SolverType.GUROBI)  # Or try with SCIP
+    # Print results
+    print(f"Status: {LpStatus[prob.status]}")
+    print(f"Objective value: {pulp.value(prob.objective)}")
 
-    print("Status:", result.termination.reason)
-    print("x =", result.variable_values[x])
-    print("y =", result.variable_values[y])
+    for v in prob.variables():
+        print(f"{v.name} = {v.varValue}")
 
 if __name__ == "__main__":
-    solve_qp()
+    if len(sys.argv) != 2:
+        print("Usage: python solve_mps_with_ortools.py path/to/problem.mps")
+        sys.exit(1)
+
+    mps_file = sys.argv[1]
+    solve_mps_with_ortools(mps_file)

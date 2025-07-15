@@ -1,0 +1,129 @@
+=== STDOUT ===
+
+==  Welcome to the SYMPHONY MILP Solver 
+==  Copyright 2000-2023 Ted Ralphs and others 
+==  All Rights Reserved. 
+==  Distributed under the Eclipse Public License 1.0 
+==  Version: 5.7.2 
+==  Build Date: Mar 24 2024 
+
+Reading input file...
+
+
+Starting Preprocessing...
+Preprocessing finished...
+ 	 with no modifications...
+Problem has 
+	 27 constraints 
+	 32 variables 
+	 83 nonzero coefficients
+
+Total Presolve Time: 0.000050...
+
+Solving...
+
+
+****************************************************
+* Optimal Solution Found                           *
+* Now displaying stats and best solution found...  *
+****************************************************
+
+======================= CP Timing ===========================
+  Cut Pool                  0.000
+====================== LP/CG Timing =========================
+  LP Solution Time          0.000
+  LP Setup Time             0.000
+  Variable Fixing           0.000
+  Pricing                   0.000
+  Strong Branching          0.000
+  Separation                0.000
+  Primal Heuristics         0.000
+  Communication             0.000
+=================== Parallel Overhead ======================
+  Communication         0.000
+  Ramp Up Time (TM)     0.003
+  Ramp Down Time        0.000
+  Total User Time              0.000
+  Total Wallclock Time         0.005
+
+====================== Statistics =========================
+Number of created nodes :       1
+Number of analyzed nodes:       1
+Depth of tree:                  0
+Size of the tree:               1
+Number of solutions found:      1
+Number of solutions in pool:    1
+Number of Chains:               1
+Number of Diving Halts:         0
+Number of cuts in cut pool:     0
+Lower Bound in Root:            -464.753
+
+======================= LP Solver =========================
+Number of times LP solver called:                 1
+Number of calls from feasibility pump:            0
+Number of calls from strong branching:            0
+Number of solutions found by LP solve:            1
+Number of bounds changed by strong branching:     0
+Number of nodes pruned by strong branching:       0
+Number of bounds changed by branching presolver:  0
+Number of nodes pruned by branching presolver:    0
+
+==================== Primal Heuristics ====================
+                             Time      #Called   #Solutions
+Rounding I                   0.00                           
+Rounding II                  0.00                           
+Diving                       0.00 
+Feasibility Pump             0.00 
+Local Search                 0.00            1            0 
+Restricted Search            0.00 
+Rins Search                  0.00 
+Local Branching              0.00 
+
+=========================== Cuts ==========================
+Accepted:                         0
+Added to LPs:                     0
+Deleted from LPs:                 0
+Removed because of bad coeffs:    0
+Removed because of duplicacy:     0
+Insufficiently violated:          0
+In root:                          0
+
+Time in cut generation:              0.00
+Time in checking quality and adding: 0.00
+
+                   Time     #Called     In Root       Total
+Gomory             0.00 
+Knapsack           0.00 
+Clique             0.00 
+Probing            0.00 
+Flowcover          0.00 
+Twomir             0.00 
+Oddhole            0.00 
+Mir                0.00 
+Rounding           0.00 
+LandP-I            0.00 
+LandP-II           0.00 
+Redsplit           0.00 
+
+===========================================================
+Solution Found: Node 0, Level 0
+Solution Cost: -464.7531428571
++++++++++++++++++++++++++++++++++++++++++++++++++++
+Column names and values of nonzeros in the solution
++++++++++++++++++++++++++++++++++++++++++++++++++++
+X01                                                80.0000000000
+X02                                                25.5000000000
+X03                                                54.5000000000
+X04                                                84.8000000000
+X06                                                18.2142857143
+X14                                                18.2142857143
+X16                                                19.3071428571
+X22                                                500.0000000000
+X23                                                475.9200000000
+X24                                                24.0800000000
+X26                                                215.0000000000
+X36                                                339.9428571429
+X37                                                383.9428571429
+
+
+=== STDERR ===
