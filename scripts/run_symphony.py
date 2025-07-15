@@ -129,5 +129,5 @@ if __name__ == "__main__":
     # Get the directory of the current script and its parent directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
     base_dir = os.path.dirname(script_dir)  # Parent directory of scripts/
-    mps_file = os.path.join(base_dir, "problem_instances", "qap10.mps")
+    mps_file = os.path.join(base_dir, "MILP", "bienst1.mps")
     solve_mip(mps_file)

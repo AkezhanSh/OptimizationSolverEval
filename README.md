@@ -8,6 +8,9 @@ The goal is to evaluate solver performance on infeasible (`mod008inf`) and feasi
 ## Repository Structure
 - **problems/**: MPS files (e.g., `mod008inf.mps`).
 - **scripts/**: Solver and validation scripts.
+- **LP/**: Problem Set gathered from https://github.com/ozy4dm/lp-data-netlib 
+- **MILP/**: Problem Set gathered from https://plato.asu.edu/ftp/milp/ 
+- **MIQP/**: Problem Set gathered from https://plato.asu.edu/ftp/miqp/ with benchmark provided https://plato.asu.edu/talks/wash.pdf  
 - **results/**: Solver output logs.
 - **README.md**: This file.
 
@@ -25,3 +28,6 @@ bash scripts/run_scip.sh
 2. **SYMPHONY**:
 g++ scripts/run_symphony.cpp -o scripts/run_symphony -lSym
 ./scripts/run_symphony problems/mod008inf.mps > results/mod008inf_symphony.log
+
+## Benchmark Links
+https://plato.asu.edu/talks/wash.pdf 

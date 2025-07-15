@@ -1,0 +1,230 @@
+Checking QPDATA2/Q25FV47.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QADLITTL.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QAFIRO.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QBANDM.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QBEACONF.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QBORE3D.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QBRANDY.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QCAPRI.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QE226.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QETAMACR.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QFFFFF80.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QFORPLAN.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QGFRDXPN.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QGROW15.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QGROW22.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QGROW7.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QISRAEL.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QPILOTNO.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QRECIPE.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSC205.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCAGR25.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCAGR7.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCFXM1.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCFXM2.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCFXM3.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCORPIO.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCRS8.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCSD1.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCSD6.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCSD8.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCTAP1.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCTAP2.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSCTAP3.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSEBA.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHARE1B.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHARE2B.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHELL.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP04L.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP04S.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP08L.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP08S.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP12L.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSHIP12S.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSIERRA.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSTAIR.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
+Checking QPDATA2/QSTANDAT.QPS
+QUADOBJ:
+QUADOBJ
+Integer markers:
+None
