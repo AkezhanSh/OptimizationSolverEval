@@ -9,9 +9,16 @@ The goal is to evaluate solver performance on infeasible (`mod008inf`) and feasi
 - **problems/**: MPS files (e.g., `mod008inf.mps`).
 - **scripts/**: Solver and validation scripts.
 - **LP/**: Problem Set gathered from https://github.com/ozy4dm/lp-data-netlib 
-- **MILP/**: Problem Set gathered from https://plato.asu.edu/ftp/milp/ 
-- **MIQP/**: Problem Set gathered from https://plato.asu.edu/ftp/miqp/ with benchmark provided https://plato.asu.edu/talks/wash.pdf  
-- **QPDATA2/**: Problem Set gathered from https://www.doc.ic.ac.uk/~im/#DATA with benchmark provided https://plato.asu.edu/talks/wash.pdf  
+
+
+- **MILP/**: Problem Set gathered from https://plato.asu.edu/ftp/milp/; Author - https://plato.asu.edu/ftp/milp/00README
+
+
+- **MIQP/**: Problem Set gathered from https://plato.asu.edu/ftp/miqp/ with benchmark provided https://plato.
+asu.edu/talks/wash.pdf; Author - https://plato.asu.edu/ftp/miqp/00README 
+
+
+- **QPDATA2/**: Problem Set gathered from https://www.doc.ic.ac.uk/~im/#DATA with benchmark provided https://plato.asu.edu/talks/wash.pdf; Nothing mentioned about the license in the readme - https://www.doc.ic.ac.uk/%7Eim/00README.QP 
 - **results/**: Solver output logs.
 - **README.md**: This file.
 

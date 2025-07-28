@@ -6,8 +6,8 @@ import time
 from datetime import datetime
 
 
-mps_file_name = "afiro.mps"
-problem_type  = "LP"
+mps_file_name = "icap6000.mps"
+problem_type  = "MIQP"
 
 
 # Base dir = one level up from this script

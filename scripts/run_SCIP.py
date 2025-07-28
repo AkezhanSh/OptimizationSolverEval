@@ -7,8 +7,9 @@ import sys
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # Define problem file location (adjust QPS filename here)
-qps_file_name = "iair04.mps"
+qps_file_name = "icap6000.mps"
 problem_type = "MIQP"
+
 problem_file = os.path.join(base_dir, problem_type, qps_file_name)
 problem_name = os.path.splitext(os.path.basename(problem_file))[0]  # e.g., "QAFIRO"
 results_dir = os.path.join(os.getcwd(), "results", problem_type)
